@@ -12,8 +12,8 @@ public class SumArrayNumbers {
    * @return The result of 1 + 2 + 3
    */
   public static Integer sum(List<Integer> array) {
-  integer sum = 0;
-for (integer i = 0; i < array.size() ; i++) {
+  Integer sum = 0;
+for (Integer i = 0; i < array.size() ; i++) {
     sum += array.get(i);
 }
     return sum;
